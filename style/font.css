@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Bold.ttf");
+    font-style: bold;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../font/Rubik/Rubik-Regular.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../font/Rubik/Rubik-Bold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}

@@ -1,0 +1,1719 @@
+@font-face {
+    font-family: 'dekarregular';
+    src: url('../font/font/dekar-webfont.woff2') format('woff2'),
+    url('../font/font/dekar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                      annimation de fond
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+.pentagon{
+    position: fixed;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+
+    z-index: -1;
+
+
+}
+.pentagon:before {
+    content: "";
+    z-index:-1;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+
+}
+
+.bleu{
+     border-color: rgba(64,159,218,.5) transparent;
+ }
+
+.bleu:before{
+    border-color: transparent transparent rgba(64,159,218,.5);
+}
+
+.gris{
+    border-color: rgba(89,89,89,.5) transparent;
+}
+
+.gris:before{
+    border-color: transparent transparent rgba(89,89,89,.5);
+}
+
+.fonce{
+    border-color: rgba(0,70,114,.5) transparent;
+}
+
+.fonce:before{
+    border-color: transparent transparent rgba(0,70,114,.5);
+}
+
+
+
+
+.anim1{
+    animation: anim-un 10s infinite ;
+}
+
+
+@keyframes anim-un {
+    from {top: 0px; left: 0px;}
+    to {top: 100%; left: 100%; transform:rotate(300deg);}
+}
+
+.anim4{
+    animation: anim-quatre 11s infinite ;
+}
+
+
+@keyframes anim-quatre {
+    from {bottom: 0px; left: 40%;}
+    to {bottom: 130%; left: 65%; transform:rotate(-300deg);}
+}
+
+.anim2{
+    animation: anim-deux 12s infinite ;
+}
+
+
+@keyframes anim-deux {
+    from {bottom: 0px; left: 0px;}
+    to {bottom: 110%; left: 110%; transform:rotate(300deg);}
+}
+
+
+.anim3{
+    animation: anim-troit 8s infinite ;
+}
+
+
+@keyframes anim-troit {
+    from {bottom: 50%; left: 100%;}
+    to {bottom: 35%; left: -10%; transform:rotate(300deg);}
+}
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                début du css de mises en page
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+body {
+    background-color: #011e27;
+
+}
+*{
+    font-family: dekarregular;
+}
+
+body{
+    margin: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+span{
+    font-family: 'Roboto', sans-serif;;
+}
+#acceuil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+
+h1{
+    color: #fff;
+    font-size:3.75rem;
+}
+
+#acceuil h1{
+    padding-top:10%;
+}
+
+li{
+    list-style-type: none;
+}
+a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color:  #00ffff;
+    cursor: pointer;
+}
+
+
+#acceuil p {
+   /* padding-top: 75px;*/
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2.18rem;
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+
+
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+   /* position: absolute;
+   bottom: 5%;*/
+    width: 80%;
+    flex-wrap: wrap;
+
+}
+nav .bouton {
+    background-color:#00808d ;
+    border: solid 1px #10b1c1  ;
+    width: 110px;
+    height: 110px;
+    /*transform:rotate(45deg) ;*/
+    margin: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav .bouton:hover{
+
+    background-color:#014958;
+    border: solid 1px #10b1c1  ;
+
+
+
+
+
+}
+
+
+
+nav li{
+    font-size: 1.25rem;
+   /* transform: rotate(-45deg);*/
+    position:relative ;
+    top:40%;
+    color: #fff;
+
+
+}
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                      compétence
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+
+#competence{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+#competence ul{
+    width: 65%;
+    height: 50%;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#competence ul div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#competence p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.mobile{
+    display: none;
+}
+
+
+.barre{
+    height: 50px;
+    width: 500px;
+    border: #00ffff solid 2px;
+    background-color: rgba(1,73,88,50);
+}
+.photoshop:after {
+    content: "";
+    position: absolute;
+
+    height: 50px;
+    width:250px;
+    background-color: #00ffff;
+    animation: photoshop 3s ;
+}
+
+.php:after {
+    content: "";
+    position: absolute;
+
+    height: 50px;
+    width:200px;
+    background-color: #00ffff;
+    animation: php 3s ;
+}
+
+.java:after {
+    content: "";
+    position: absolute;
+
+    height: 50px;
+    width:400px;
+    background-color: #00ffff;
+    animation: java 3s ;
+}
+
+.html:after {
+    content: "";
+    position: absolute;
+
+    height: 50px;
+    width:325px;
+    background-color: #00ffff;
+    animation: html 3s ;
+}
+
+.programme{
+    width: 100px;
+}
+.css:after {
+    content: "";
+    position: absolute;
+
+    height: 50px;
+    width:300px;
+    background-color: #00ffff;
+    animation: css 3s ;
+}
+
+@keyframes photoshop {
+    from {width: 0px;}
+    to {max-width: 250px;}
+}
+
+@keyframes php {
+    from {width: 0px;}
+    to {width: 200px;}
+}
+
+@keyframes java {
+    from {width: 0px;}
+    to {width: 400px;}
+}
+
+@keyframes html {
+    from {width: 0px;}
+    to {width: 325px;}
+}
+
+@keyframes css {
+    from {width: 0px;}
+    to {width: 300px;}
+}
+
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                        contacter
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+#contacte{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contacte h1{
+    padding-top: 10%;
+
+}
+
+#contacte article {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#contacte button{
+    background-color:#014958 ;
+    border: solid 2px #00ffff;
+    height: 100px;
+    font-size: 30px;
+    width: 100px;
+
+}
+
+#contacte button:hover{
+
+    cursor: pointer;
+}
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                       présentations
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+#presentation{
+    display: none;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5%;
+
+}
+
+.img-presentation {
+    border: solid 2px #00ffff;
+    background-image: url("../image/img-prez.png");
+    width: 40%;
+    background-size: cover;
+    background-position: center,center;
+
+
+}
+
+#presentation aside{
+    border: solid 2px #00ffff;
+    background-color: rgba(1,73,88,50);
+    width: 80%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+#presentation aside h2{
+    padding: 10px;
+
+    padding-left:20px ;
+}
+
+#presentation aside p{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    padding-left:20px ;
+}
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                           projets
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+
+#realisations{
+   display: none;
+   text-align: center;
+    flex-direction: column;
+
+
+}
+
+#realisations section{
+    text-align: center;
+}
+
+#realisations h1{
+    padding: 5%;
+}
+
+
+#realisations .prog{
+   /* display: flex;
+    justify-content: space-between;
+    width: 60%;
+    /*text-align: center;*/
+}
+
+.image-projets{
+    width: 300px;
+    height: 300px;
+
+    background-color:#014958 ;
+    border: solid 2px #00ffff;
+}
+
+.selection{
+    text-decoration: underline;
+}
+
+.envlope-projets{
+    width: max-content;
+    margin: auto auto;
+}
+
+.envlope-projets article{
+    cursor: pointer;
+    
+}
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                sous- menu des projets
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+
+#realisations .menu_selection{
+    position: fixed;
+    top:20%;
+    height: 60%;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width:min-content;
+    width:-webkit-min-content;
+
+    width:-moz-min-content;
+
+    background-color:rgba(7,51,63,50) ;
+    border: solid 2px #00ffff;
+}
+
+#realisations aside p{
+    padding: 10px ;
+    font-size: 1.5rem;
+
+    color: #fff;
+    cursor: pointer;
+}
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//           image des projets
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+
+
+
+.image-projets img{
+    width: 300px;
+}
+
+
+
+#realisations .prog{
+    display: flex;
+
+}
+
+
+#realisations .designe{
+    display: none;
+}
+
+#realisations .intégration{
+    display: none;
+}
+
+.rea-phone{
+    display: none;
+}
+
+.info_projets ul{
+    padding-left:0 ;
+}
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//           css pour les info des projets
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+
+
+
+.info_projets{
+    background-color:#014958 ;
+    border: solid 2px #00ffff;
+    display: flex;
+    max-width: 80%;
+    margin-top: 5%;
+
+    position: fixed;
+    top:10%;
+    left:10%;
+
+    display: none;
+    z-index: 99;
+
+    text-align: left;
+   
+}
+
+.info_projets h2{
+    color: #fff;
+
+}
+
+.info_projets article{
+    margin:  0 10px;
+}
+.info_projets p{
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.info_projets li{
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.info_projets aside{
+    margin:auto ;
+    margin-right: 10px;
+
+
+
+}
+
+.info_projets img{
+    margin: 10px;
+    border: solid 2px #00ffff;
+}
+
+.info_projets button{
+     background-color:#00808d ;
+    border: solid 2px #00ffff;
+    
+    font-family: dekarregular;
+    font-size:1.5rem;
+    color:#fff;
+    
+    padding:10px;
+    width:200px;
+    margin-bottom:30px;
+   
+}
+
+.info_projets button:hover{
+    background-color:#014958;
+}
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                    menu hambergeur
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+.contenue{
+    display: none;
+}
+
+.contenue li{
+    list-style-type: none;
+    padding: 10px;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.contenue li:hover{
+    color: #3a768f;
+}
+
+
+
+
+.hamburger-inner{
+    display: none;
+}
+
+.info_projets .droite{
+   position: absolute;
+    top:-6%;
+    right:-3%;
+
+
+    border: none;
+}
+
+@media only screen  and (min-width: 1025px){
+
+    .nav nav{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width : 1250px) and (min-width: 1024px){
+
+    .image-projets{
+        width: 225px;
+        height: 225px;
+    }
+
+    .image-projets img{
+        width: 225px;
+
+    }
+
+
+}
+
+
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                      media querry tablette
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+@media only screen and (max-width : 1024px) and (min-width: 768px){
+
+    /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                          acceuil
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+    nav .bouton {
+
+        width: 150px;
+        height: 150px;
+
+
+        /*transform:rotate(45deg) ;*/
+
+    }
+
+    #acceuil{
+        height: auto;
+        margin-top:0px;
+    }
+
+    /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                      compétence
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+ */
+
+    #competence ul{
+        width: 80%;
+        padding-left: 0;
+
+    }
+
+
+    .barre{
+        height: 50px;
+        width: 400px;
+        border: #00ffff solid 2px;
+        background-color: rgba(1,73,88,50);
+    }
+
+
+    .autre .photoshop:after {
+        width:200px;
+    }
+
+    .autre  .php:after {
+        height: 50px;
+        width:160px;
+    }
+
+    .autre .java:after {
+        width:320px;
+    }
+
+    .autre .html:after {
+
+        width:260px;
+
+    }
+
+    .programme{
+        width: 100px;
+    }
+
+
+    .css:after {
+        width:240px;
+    }
+
+    @keyframes photoshop {
+        from {width: 0px;}
+        to {max-width: 200px;}
+    }
+
+    @keyframes php {
+        from {width: 0px;}
+        to {width: 160px;}
+    }
+
+    @keyframes java {
+        from {width: 0px;}
+        to {width: 320px;}
+    }
+
+    @keyframes html {
+        from {width: 0px;}
+        to {width: 260px;}
+    }
+
+    @keyframes css {
+        from {width: 0px;}
+        to {width: 240px;}
+    }
+
+    /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                      realistatrion
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+    .envlope-projets{
+        margin: 0 auto 0 auto;
+        padding-left: 20px;
+    }
+
+    #realisations .prog{
+        flex-direction: column;
+    }
+
+    #navigation{
+        display: none;
+    }
+
+
+    .hambergeur {
+        position: fixed;
+
+        top: 30px;
+        right:30px;
+        display: block;
+    }
+
+
+    nav{
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav li{
+        position: initial;
+    }
+
+    .image-projets{
+        height: 300px;
+        width: 300px;
+    }
+
+    .image-projets img{
+        width: 300px;
+    }
+
+    .contenue{
+        border: #00ffff solid 2px;
+        background-color: rgba(1,73,88,50);
+
+        z-index: 25;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding-top: 50px;
+
+        display: none;
+    }
+
+    .hamburger{
+        display:block;
+        position: fixed;
+        top:0;
+        right: 0;
+        z-index: 100;
+    }
+
+    .hamburger-inner{
+        display: block;
+    }
+
+
+    .mini{
+      /*  display: flex;*/
+        align-items: center;
+        margin: 20px;
+        
+
+    }
+
+    .mini h2{
+        padding-left:20px ;
+    }
+
+
+
+    .projets {
+        display: none;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        height: 100%;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+
+    }
+    
+     .projet_slsCarrousel{
+        flex-direction:column;
+    }
+    .projet_slsCarrousel aside{
+        display:flex;
+        flex-direction:column;
+    }
+    .info_projets{
+        border: none;
+    }
+
+    .info_projets aside{
+        margin: 0;
+    }
+
+    .info_projets p {
+        font-size: 1.5rem;
+    }
+    .info_projets li{
+        font-size: 1.5rem;
+        list-style-type: none;
+    }
+
+   /* #realisations aside p{
+        font-size: 2.25rem;
+    }*/
+
+    .info_projets ul{
+        padding-left: 0px;
+    }
+
+
+    .info_projets {
+        z-index: 1000;
+        justify-content: center;
+    }
+
+
+    .info_projets .droite{
+
+        top:0;
+        right: 0;
+    }
+
+}
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                    media querry phone
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+@media only screen and (max-width: 767px)  {
+
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    #navigation{
+        display: none;
+    }
+
+
+    .hamburger{
+        display:block;
+        position: fixed;
+        top:0;
+        right: 0;
+        z-index: 100;
+    }
+
+    .hamburger-inner{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+
+    nav li{
+
+        position: initial;
+    }
+
+
+
+    .contenue li{
+        padding: 20px;
+    }
+
+    .contenue{
+        border: #00ffff solid 2px;
+        background-color: rgba(1,73,88,50);
+        padding-top:50px ;
+
+        position: fixed;
+        top: 0px;
+        right: 0px;
+
+
+    }
+
+
+    .hamburger{
+        display:block;
+        position: fixed;
+        top:0px;
+        right: 0px;
+        z-index: 100;
+    }
+
+    .hamburger-inner{
+        display: block;
+    }
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        width: 40px;
+        height: 5px;
+    }
+
+    .hamburger--emphatic{
+        overflow: visible;
+    }
+
+
+
+
+
+    #navigation{
+        display: none;
+    }
+
+
+    #acceuil{
+        height: 0;
+    }
+
+    #acceuil h2{
+        font-size: 1.75rem;
+    }
+
+
+
+
+    #presentation{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+        width: 100vw;
+    }
+
+    .img-presentation{
+        height: 300px;
+    }
+
+
+    #presentation aside{
+        width: 90%;
+        margin-left: 0;
+    }
+
+
+    #presentation aside p{
+
+        margin-top:0 ;
+    }
+
+
+    #contacte h1{
+        font-size: 3rem;
+    }
+
+    #contacte h2{
+        font-size: 1.75rem;
+    }
+
+    #contacte article{
+        width: 50%;
+    }
+
+
+
+
+
+    #competence .autre{
+        display: none;
+    }
+
+
+    #competence .mobile{
+        display: block;
+        padding-left: 0px;
+
+        width: 90%;
+    }
+
+
+    #competence ul > div{
+        display: block;
+    }
+
+    .mobile .info-comp{
+        display: flex;
+    }
+
+    .barre{
+        width: 100%;
+        height: 25px;
+    }
+
+    .barre:after{
+        height: 25px;
+    }
+
+    #competence p{
+        /*font-size: 2.3rem;*/
+    }
+
+/*---------------------*/
+
+    .mobile  .photoshop:after {
+      width:40%;
+  }
+
+  @keyframes photoshop {
+      from {width: 0px;}
+      to {max-width: 40%;}
+  }
+
+  /*----------------------*/
+
+  .php:after {
+     width:30%;
+ }
+
+ @keyframes php {
+     from {width: 0px;}
+     to {width: 30%;}
+ }
+
+ /*----------------------*/
+
+   .java:after {
+       width:70%;
+   }
+
+   @keyframes java {
+       from {width: 0px;}
+       to {width: 70%;}
+   }
+
+   /*----------------------*/
+
+  .html:after {
+
+      width:55%;
+
+  }
+
+  @keyframes html {
+      from {width: 0px;}
+      to {width: 55%;}
+  }
+
+  /*----------------------*/
+
+  .css:after {
+     width:50%;
+  }
+
+  @keyframes css {
+      from {width: 0px;}
+      to {width: 50%;}
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    #competence .autre{
+        display: none;
+    }
+
+
+    .mobile{
+        display: block;
+    }
+
+
+    #competence ul > div{
+        display: block;
+    }
+
+    .mobile .info-comp{
+        display: flex;
+    }
+
+    .barre{
+        width: 100%;
+    }
+
+    #competence p{
+        /*font-size: 2.3rem;*/
+    }
+
+    /*---------------------*/
+
+    .photoshop:after {
+        width:40%;
+    }
+
+    @keyframes photoshop {
+        from {width: 0px;}
+        to {max-width: 40%;}
+    }
+
+    /*----------------------*/
+
+    .php:after {
+         width:30%;
+    }
+
+    @keyframes php {
+        from {width: 0px;}
+        to {width: 30%;}
+    }
+
+    /*----------------------*/
+
+    .java:after {
+          width:70%;
+    }
+
+    @keyframes java {
+        from {width: 0px;}
+        to {width: 70%;}
+    }
+
+    /*----------------------*/
+
+    .html:after {
+
+        width:55%;
+
+    }
+
+    @keyframes html {
+        from {width: 0px;}
+        to {width: 55%;}
+    }
+
+    /*----------------------*/
+
+    .css:after {
+         width:50%;
+    }
+
+    @keyframes css {
+        from {width: 0px;}
+        to {width: 50%;}
+    }
+
+
+
+    .colone{
+
+        flex-direction: column;
+    }
+
+
+    .image-projets{
+        width: 200px;
+        height: 200px;
+    }
+
+    .image-projets img{
+        width: 200px;
+    }
+
+
+    .info_projets{
+        height: 100%;
+        max-width: 100%;
+        margin-top: 0;
+        top: 0;
+        left:0;
+
+    }
+
+    .projets{
+        flex-direction: column-reverse;
+    }
+    
+   .projet_slsCarrousel{
+        flex-direction:column;
+    }
+    
+    .projet_slsCarrousel aside{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .info_projets aside{
+        margin: 0;
+        width: 50%;
+    }
+
+    .info_projets {
+        z-index: 1000;
+        justify-content: center;
+    }
+
+    .info_projets img{
+        width: 200px;
+    }
+
+    .info_projets ul{
+        padding-left: 0px;
+    }
+
+    .info_projets li{
+
+        list-style-type: none;
+    }
+    .info_projets .droite{
+
+        width: auto;
+
+        top: 0%;
+        right: 0%;
+    }
+
+
+
+}
+
+ @media only screen and (max-width: 500px){
+
+     /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//              500 acceuil
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+     #acceuil h1{
+         font-size: 2rem;
+     }
+
+     #acceuil h2{
+         font-size: 1.25rem;
+     }
+     #acceuil p{
+         font-size: 1.20rem;
+     }
+
+
+
+     #presentation{
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+
+         width: 100vw;
+
+
+     }
+
+     #presentation h2 {
+         padding: 0px;
+         font-size: 1.50rem;
+     }
+
+
+
+
+     .img-presentation {
+         display: none;
+     }
+
+     #presentation p{
+         font-size: 1.25rem;
+     }
+
+     #contacte h1{
+         font-size: 2.5rem;
+     }
+
+     #contacte h2{
+         font-size: 1.50rem;
+     }
+
+     #contacte article{
+         width: 80%;
+     }
+
+     #competence h1{
+         font-size:1.5rem ;
+     }
+
+     #competence p{
+         font-size: 1rem;
+     }
+
+     .mobile div:last-of-type{
+         margin-bottom: 20px;
+     }
+
+     .rea-normale{
+         display: none;
+     }
+
+     .rea-phone{
+         display: block;
+         text-align: center;
+     }
+     .rea-phone .image-projets{
+         margin: auto;
+     }
+
+     .rea-phone h1{
+         margin-top:100px ;
+
+     }
+
+     .rea-phone h2{
+         font-size: 1.75rem;
+     }
+
+     .info_projets aside img{
+         width: 200px;
+     }
+
+     .info_projets h2 {
+         font-size: 1.75rem;
+
+     }
+
+     .info_projets p{
+         font-size: 1rem;
+     }
+
+     .info_projets li {
+         list-style-type: none;
+         font-size: 1rem;
+
+     }
+
+     .info_projets ul{
+         padding-left: 0px;
+     }
+
+     .info_projets aside img{
+         display: none;
+     }
+
+
+
+
+
+
+
+ }
+
+
+
+
+/*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                        400 acceuil
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+@media only screen and (max-width: 400px){
+
+    #acceuil h1{
+        font-size: 1.5rem;
+    }
+
+    #acceuil h2{
+        font-size: 0.90rem;
+    }
+
+    #acceuil p{
+        font-size: 1rem;
+    }
+
+
+    .img-presentation {
+        display: none;
+    }
+
+    #presentation aside p{
+        font-size: 1rem;
+    }
+
+
+    #contacte h1{
+        font-size: 1.5rem;
+    }
+
+    #contacte h2{
+        font-size: 1.25rem;
+    }
+
+    #contacte img{
+        width: 75%;
+
+
+    }
+
+    #contacte button{
+        width: 75px;
+        height: 75px;
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 767px){
+
+*{
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+
+  h2{
+      font-size: 2.8rem;
+  }
+  #acceuil p{
+      font-size: 2rem;
+  }
+
+  /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                    phone présentation
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+  /*  #presentation{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+    }
+    #presentation aside{
+        width: 90%;
+    }
+
+    #presentation aside p{
+        font-size: 2rem;
+        margin-top:0 ;
+    }
+     #competence .autre{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                    phone compétence
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+
+  /*  #competence ul > div{
+        display: block;
+    }
+
+    .mobile .info-comp{
+        display: flex;
+    }
+
+    .barre{
+        width: 100%;
+    }
+
+    #competence p{
+        font-size: 2.3rem;
+    }
+
+    /*---------------------*/
+
+  /*  .photoshop:after {
+        width:40%;
+    }
+
+    @keyframes photoshop {
+        from {width: 0px;}
+        to {max-width: 40%;}
+    }
+
+    /*----------------------*/
+
+   /* .php:after {
+        width:30%;
+    }
+
+    @keyframes php {
+        from {width: 0px;}
+        to {width: 30%;}
+    }
+
+    /*----------------------*/
+
+ /*   .java:after {
+        width:70%;
+    }
+
+    @keyframes java {
+        from {width: 0px;}
+        to {width: 70%;}
+    }
+
+    /*----------------------*/
+
+  /*  .html:after {
+
+        width:55%;
+
+    }
+
+    @keyframes html {
+        from {width: 0px;}
+        to {width: 55%;}
+    }
+
+    /*----------------------*/
+
+  /*  .css:after {
+        width:50%;
+    }
+
+    @keyframes css {
+        from {width: 0px;}
+        to {width: 50%;}
+    }
+
+    /*
+//  ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫ \\
+//                    phone realisation
+// ♫▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬♫  \\
+*/
+
+  /*  .mini h2{
+        display: none;
+    }
+
+    .projets {
+        display: none;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        height: 100%;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+
+    }
+
+    .info_projets aside{
+        margin: 0;
+    }
+
+    .info_projets p {
+        font-size: 2.5rem;
+    }
+    .info_projets li{
+        font-size: 2.5rem;
+    }
+
+    #realisations aside p{
+        font-size: 2.25rem;
+    }
+
+}
