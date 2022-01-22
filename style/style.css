@@ -575,11 +575,37 @@ button:hover{
     .carteHolder{
         justify-content:space-around ;
     }
+
+    .photoBg{
+        max-width: 100%;
+    }
+
+    #imgDeuxColone{
+        max-width: 48%;
+    }
+    .sectionDouble #contenuTexte{
+        max-width: 48%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .col{
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 770px ) {
+   
+   
 }
 /*-----------=====-----====---===---==---- [ Media querry : 480px ] ----====----====----====----===-*/
 
 @media screen and (max-width: 600px) {
     
+    .contenuLanding h1{
+        text-align: center;
+    }
     body{
         font-size: 18px;
     }
