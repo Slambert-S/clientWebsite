@@ -17,6 +17,21 @@ body{
     border-style: solid;
     border-color: palevioletred;*/
 }
+
+.wrapper{
+  
+    /*max-width: 80%;*/
+    margin: auto 15px;
+    /* min-height: 200px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    
+   /* border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: palevioletred;*/
+}
+
 #wrapperNoHeight{
   
   
@@ -70,7 +85,7 @@ nav a{
     margin: 0 5px;
     font-family: Roboto;
 }
-#topNav a:hover{
+.topNav a:hover{
     color:darkgoldenrod;
 }
 
@@ -154,12 +169,15 @@ nav a{
 }
 .landingIndex{
     background-image: url("../images/landing_bgc.png");
+    background-size: inherit;
 }
 .landingFaq{
-    background-image: url("../images/landing_faq.png"); 
+    background-image: url("../images/landing_faq.png");
+    background-size: inherit; 
 }
 .landingGalerie{
     background-image: url("../images/landing_galerie.png");
+    background-size: inherit;
 }
 .landingServices{
     background-image: url("../images/header_services.png");
@@ -168,9 +186,11 @@ nav a{
 
 .landingPrix{
     background-image: url("../images/landing_prix.png");
+    background-size: inherit;
 }
 .landingContact{
     background-image: url("../images/landing_contact.png");
+    background-size: inherit;
 }
 
 
@@ -251,10 +271,45 @@ button{
     box-shadow: 0;
 
 }
+button a{
+    color: white;
+}
 
 button:hover{
     background-color: darkgoldenrod;
 }
+
+.buttonClass{
+    background-color:#F04902;
+    
+    font-family: Roboto;
+    color :white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border :0;
+    box-shadow: 0;
+
+}
+.buttonClass a{
+    color: white;
+}
+
+.buttonClass:hover{
+    background-color: darkgoldenrod;
+}
+
+
+.buttonFix{
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 #accPresentationClub{
     color: white;
 }
@@ -344,6 +399,13 @@ button:hover{
     box-shadow: 5px 5px black;
 }
 
+.imgDeuxColone{
+    
+    width: 472px;
+    max-width: 50%;
+    box-shadow: 5px 5px black;
+}
+
 .sectionDouble{
     display: flex;
     justify-content: space-between; 
@@ -356,6 +418,10 @@ button:hover{
 }
 
 .sectionDouble #contenuTexte{
+    max-width:50% ;
+}
+
+.sectionDouble .contenuTexte{
     max-width:50% ;
 }
 
@@ -495,6 +561,7 @@ button:hover{
     color: darkorange;
     cursor: pointer;
 }
+
 #faqWrapper{
     margin: auto 15px;
     
@@ -502,7 +569,13 @@ button:hover{
     padding-right: 20px;
     
 }
-
+.faqWrapper{
+    margin: auto 15px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
 .faqHidden{
     display: none;
 }
@@ -583,16 +656,21 @@ button:hover{
     #imgDeuxColone{
         max-width: 48%;
     }
+    .imgDeuxColone{
+        max-width: 48%;
+    }
     .sectionDouble #contenuTexte{
+        max-width: 48%;
+    }
+
+    .sectionDouble .contenuTexte{
         max-width: 48%;
     }
 }
 
 @media screen and (max-width: 1020px) {
-    .col{
-        width: 280px;
-        height: 280px;
-    }
+   
+    
 }
 
 @media screen and (max-width: 770px ) {
@@ -623,7 +701,15 @@ button:hover{
     #imgDeuxColone{
         max-width: 100%;
     }
+
+    .imgDeuxColone{
+        max-width: 100%;
+        width: 100%;
+    }
     .sectionDouble #contenuTexte{
+        max-width: 100%;
+    }
+    .sectionDouble .contenuTexte{
         max-width: 100%;
     }
 
