@@ -21,41 +21,7 @@
 
 <body>
         
-    <button id ="menuHam" class="hamburger hamburger--emphatic " tabindex="0" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-    </button>
-    
-    <div id="wrappTopNav">
-        <div id="wrappPadTopNav">
-            <a href="../index.html" id="logoMenu">Bain de nature</a>
-            <nav class="topNav">
-                <a href="service.html">Service</a>
-                <a href="faq.html">FAQ</a>
-                <a href="galerie.html">Galerie</a>
-                <a href="prix.html">Tarifs</a>
-                <a href="contact.html">Nous contacter</a>
-            </nav>
-        </div>
-    </div>
-
-
-
-    <div id="wrappTopNavMobile" class="menuClose">
-     
-        <nav class="topNav">
-            <a href="../index.html" id="logoMenuMobile">Bain de nature</a>
-            <a href="../index.html" >Acceuil</a>
-            <a href="service.html">Service</a>
-            <a href="faq.html">FAQ</a>
-            <a href="galerie.html">Galerie</a>
-            <a href="prix.html">Tarifs</a>
-            <a href="contact.html">Nous contacter</a>
-            
-        </nav>
-        
-    </div>
+<?php include "navAdmin.php";?>
 
   
 
@@ -252,9 +218,11 @@
             ?>
                     <label for="nombreSectionFaq">Nombre d'élément</label>
                     <input type="number" class="formSpacing formSmallWidth" id="nombreSectionFaq" name="nbSection" min="1" max="9" value="<?php echo intval($nbElementVariable)?>">
-                
-                    <label for="nombreSectionFaq">original</label>
-                    <input type="number" class="formSpacing formSmallWidth hidenValue" id="hidenValueFaq" name="original" min="1" max="9" value="<?php echo intval($nbElementVariable)?>">
+                    <p>Note : Les éléments sont retirer a partire du bas. Ci le nombre d'élément voulus diminue les valeurs des sections les plus bases vont être perdu. </p>
+                    <input type="submit" id="submitButtonIndex" class="formSmallWidth formSpacing" value="Enregister les informations" name ="subject">
+
+                    <label for="nombreSectionFaq" style="display:none">original</label>
+                    <input type="number" style="display:none" class="formSpacing formSmallWidth hidenValue" id="hidenValueFaq" name="original" min="1" max="9" value="<?php echo intval($nbElementVariable)?>">
                 
 
                     <label for="faqSkip">Question à enlever:</label>
@@ -266,8 +234,8 @@
                             }
                         ?>
                     </select> 
-                    <input type="submit" id="submitButtonIndex" value="Retirer" name ="subject" >
-                    <input type="submit" id="submitButtonIndex" value="Enregister" name ="subject">
+                    <input type="submit" id="submitButtonIndex" class="formSmallWidth formSpacing" value="Retirer l'élément sélectionné" name ="subject" >
+                   
 
         
                 </form>
@@ -275,23 +243,7 @@
         </div> 
     </div>
 
-    <?php
-    $nbSection = 3;
-    $i = 1;
-                 
-                
-    for ($i ; $i <=$nbSection; $i++){
-        echo "<div class='contenuCentrer white'>";
-        echo    "<div class='widthFAQ '>";
-        echo       "<div class='faqWrapper'>";
-        echo            "<h2 class = 'faqTitle'> Question # ".$i."<span class='faqToogleArrow'>&#8744;</span></h2>";
-        echo            "<div class = 'faqToggle faqHidden'>";
-        echo                "<p>La nudité est permies sur tout le site saufe sur le stationnement</p>";
-        echo            "</div></div></div></div>";
-               
-    }
-               
-    ?>
+  
 
 
     <div class="contenuCentrer noire">
