@@ -79,6 +79,7 @@
                     Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis.
                     Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
                 </p>
+                <?php echo "<h1>This is a php test</h1>"?>
                     
             </div>
         </div> 
