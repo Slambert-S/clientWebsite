@@ -274,8 +274,12 @@ nav a{
 
 .formStyle label{
     padding-top: 10px;
+    font-weight: bold;
 }
 
+.formStyle h3{
+    color:#F04902;
+}
 .formSmallWidth{
     width: fit-content;
 }

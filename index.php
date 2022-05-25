@@ -21,15 +21,19 @@
 
 <body>
     
-    <?php include "src/navPublicIndex.php";?>
+    <?php
+        include "src/navPublicIndex.php";
+        $custumPath ="src/txtfile/";
+        include "src/indexParsing.php";
+    ?>
   
+   
     
-
     <div class="landing landingIndex">
         <div class="contenuLanding" >
             <div class="boxLanding">
 
-                <H1>Petit titre ou slogan</H1>
+                <H1><?php echo $landingText?>  </H1>
                 <a href="src/contact.html"><div class="buttonClass">call to action</div></a>
             </div>
 
@@ -41,10 +45,8 @@
         <div class="mxWidth photoBg">
             <div  class="texteCentrer hero wrapper">
             
-                <h2>Bain de nature, gite et club privé naturise pour homme </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. 
-                    Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis.
-                     Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. </p>
+                <h2><?php echo  $acceuiltitre ?></h2>
+                <p><?php echo $acceuilText ?> </p>
     
             </div>
         </div>
@@ -58,10 +60,9 @@
         <div class="mxWidth allignSelfFix">
             
             <div class="wrapper" >
-                <h2>Les Services offert</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. 
-                    Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis.
-                    Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+                <h2><?php echo $serviceTitre ?></h2>
+                <p>
+                    <?php echo $serviceTexte ?>
                 </p>
                     
             </div>
@@ -76,20 +77,20 @@
     <div class="contenuCentrer white">
         <div class="mxWidth ">
             <div class="evenColumn" >
-                <div class="col container"><img src="images/piscine_triple_un.png" alt="une image de la piscine disponible pour les membre"><div class="centerIMG"><h2>Nom services</h2> <a href="src/service.html"><div class="buttonClass buttonFix">En savoir plus</div></a></div></div>
-                <div class="col container"><img src="images/nakedKerry.jpg" alt="" class="hoverIMG"><div class="centerIMG"><h2>Nom services</h2> <a href="src/service.html"><div class="buttonClass buttonFix">En savoir plus</div></a></div></div>
-                <div class="col container"><img src="images/cuisine_section_un.png" alt="" class="hoverIMG"><div class="centerIMG"><h2>Nom services</h2> <a href="src/service.html"><div class="buttonClass buttonFix">En savoir plus</div></a></div></div>
+                <div class="col container"><img src="images/piscine_triple_un.png" alt="une image de la piscine disponible pour les membre"><div class="centerIMG"><h2><?php echo $serviceImgTitre[0] ?></h2> <a href="src/service.html"><div class="buttonClass buttonFix">En savoir plus</div></a></div></div>
+                <div class="col container"><img src="images/nakedKerry.jpg" alt="" class="hoverIMG"><div class="centerIMG"><h2><?php echo $serviceImgTitre[1] ?></h2> <a href="src/service.html"><div class="buttonClass buttonFix">En savoir plus</div></a></div></div>
+                <div class="col container"><img src="images/cuisine_section_un.png" alt="" class="hoverIMG"><div class="centerIMG"><h2><?php echo $serviceImgTitre[2] ?></h2> <a href="src/service.html"><div class="buttonClass buttonFix">En savoir plus</div></a></div></div>
             </div>
         </div>
     </div>
 
     <div class="contenuCentrer">
-        <div class="mxWidth   ">
+        <div class="mxWidth ">
             <div  class ="sectionDouble wrapper">
                 <img src="images/haute.jpg" alt="image des hotes" id="imgDeuxColone">
                 <div class="contenuTexte" >
-                    <h2>Découvire vos hôtes </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quis voluptates in maiores odit nihil ducimus. Totam vel repellat suscipit sit nam quaerat mollitia ratione tempora praesentium, cum nostrum voluptatibus!</p>
+                    <h2><?php echo $hoteTitre ?></h2>
+                    <p><?php echo $hoteText ?></p>
                 </div>
             </div>
         </div> 
@@ -100,10 +101,8 @@
         <div class="mxWidth allignSelfFix">
             
             <div class="wrapper" >
-                <h2>Nos tarif</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. 
-                    Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis.
-                    Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. </p>
+                <h2><?php echo $tarifTitre ?></h2>
+                <p><?php echo $tarifText ?> </p>
             </div>
                 
         </div>
@@ -118,22 +117,22 @@
         <div class="mxWidth allignSelfFix" id="carteTroisLarge">
             <div class="carte">
                 <img src="images/bureau_carte.png" alt="">
-                <h3>Devenir membre</h3>
-                <p>50$</p>
+                <h3><?php echo $tarifCarteTitre[0] ?></h3>
+                <p><?php echo $tarifCarteMontant[0] ?>$</p>
                 <a href="src/prix.html"><p  class="lienCarte">En savoir plus</p></a>
             </div>
 
             <div class="carte">
                 <img src="images/chambre_carte.png" alt="">
-                <h3>Devenir membre</h3>
-                <p>50$</p>
+                <h3><?php echo $tarifCarteTitre[1] ?></h3>
+                <p><?php echo $tarifCarteMontant[1] ?>$</p>
                 <a href="src/prix.html"><p  class="lienCarte">En savoir plus</p></a>
             </div>
 
             <div class="carte">
                 <img src="images/foret_carte.png" alt="">
-                <h3>Devenir membre</h3>
-                <p>50$</p>
+                <h3><?php echo $tarifCarteTitre[2] ?></h3>
+                <p><?php echo $tarifCarteMontant[2] ?>$</p>
                 <a href="src/prix.html"><p  class="lienCarte">En savoir plus</p></a>
             </div>
                 
@@ -144,7 +143,7 @@
 
     <div class="contenuCentrer ">
         <div class="mxWidth test-o wrapper " id="galerie">
-            <h1 class="textCentrer">Explorer notre galerie de photo</h1>
+            <h1 class="textCentrer"><?php echo $galeriTitre ?></h1>
             <div class="evenColumn wrapper" >
                 <div class="col"><img src="images/cabane_bois.jpg" alt=""></div>
                 <div class="col"><img src="images/acceuil.jpg" alt=""></div>

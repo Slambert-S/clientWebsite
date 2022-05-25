@@ -1,11 +1,18 @@
 <?php
-
-if (file_exists("txtfile/infoIndex.txt")) {
-    $file = "txtfile/infoIndex.txt";
+$path ="";
+if($custumPath){
+    $path = $custumPath."infoIndex.txt";
+}else{
+    $path = "txtfile/infoIndex.txt";
 }
 
 
-$handle = fopen("txtfile/infoIndex.txt", "r");
+if (file_exists($path)) {
+    $file = $path;
+}
+
+
+$handle = fopen($path, "r");
 if ($handle) {
 //    $newTxt ="";
     $pattern = "/(landingTxt\.-\.)+/i";
@@ -15,6 +22,7 @@ if ($handle) {
     $loopIndex =0;
     $elementParsection =0;
     $storageText = "";
+    
     
     //$keyWord =preg_match_all($pattern, $str); // je ne vois pas ce que cette ligne de code voulais faire 
 
@@ -406,9 +414,7 @@ if ($handle) {
     }
   
     fclose($handle);
-    echo print_r($serviceImgTitre);
-    echo print_r($galeriPhoto);
-    echo "hote Titre : ".$galeriTitre;
+   
 } else {
     // error opening the file.
 }
