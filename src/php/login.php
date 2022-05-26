@@ -18,6 +18,4 @@ if(preg_match($username,$login)){
 }else{
     echo "username bad";
 }
-
-
 ?>

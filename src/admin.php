@@ -20,13 +20,13 @@
 
 
 <body>
-        
-    <button id ="menuHam" class="hamburger hamburger--emphatic " tabindex="0" type="button">
+
+    <button id="menuHam" class="hamburger hamburger--emphatic " tabindex="0" type="button">
         <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
+            <span class="hamburger-inner"></span>
         </span>
     </button>
-    
+
     <div id="wrappTopNav">
         <div id="wrappPadTopNav">
             <a href="../index.html" id="logoMenu">Bain de nature</a>
@@ -40,41 +40,34 @@
         </div>
     </div>
 
-
-
     <div id="wrappTopNavMobile" class="menuClose">
-     
+
         <nav class="topNav">
             <a href="../index.html" id="logoMenuMobile">Bain de nature</a>
-            <a href="../index.html" >Acceuil</a>
+            <a href="../index.html">Acceuil</a>
             <a href="service.html">Service</a>
             <a href="faq.html">FAQ</a>
             <a href="galerie.html">Galerie</a>
             <a href="prix.html">Tarifs</a>
             <a href="contact.html">Nous contacter</a>
-            
+
         </nav>
-        
+
     </div>
 
-  
-
-    
-
-   
     <div class="contenuCentrer  white addMargin" id="textIntroGalery">
-        <div class="mxWidth allignSelfFix " >
-        <form id="" class="" action="php/login.php" method="post">
+        <div class="mxWidth allignSelfFix ">
+            <form id="" class="" action="php/login.php" method="post">
                 <label for="loginUser">Utilisateur</label>
                 <input type="text" id="loginUser" name="utilisateur"></textarea>
-    
+
                 <label for="loginMdp">Mot de passe </label>
                 <input type="password" name="mdp" id="loginMdp"></textarea>
-    
-                <input type="submit" id="submitButtonIndex" value="Submit" >
-    
+
+                <input type="submit" id="submitButtonIndex" value="Submit">
+
             </form>
-        </div> 
+        </div>
     </div>
 
 
@@ -89,13 +82,13 @@
             <div>
                 <h4>Navigation</h4>
                 <ul>
-                    <li><a href="../index.html" >Acceuil</a></li>
-                    <li><a href ="../src/service.html">Service</a></li>
-                    <li><a href ="../src/galerie.html">Galerie</a></li>
-                    <li><a href ="../src/faq.html">FAQ</a></li>
+                    <li><a href="../index.html">Acceuil</a></li>
+                    <li><a href="../src/service.html">Service</a></li>
+                    <li><a href="../src/galerie.html">Galerie</a></li>
+                    <li><a href="../src/faq.html">FAQ</a></li>
                     <li><a href="../src/prix.html">Tarifs</a></li>
                     <li><a href="../src/contact.html">Contacter</a></li>
-                    
+
                 </ul>
             </div>
             <div>
