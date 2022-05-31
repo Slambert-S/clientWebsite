@@ -1,16 +1,80 @@
 landing.-.
-Pour nous contacter
+Galerie
+intro titre.-.
+Notre collection de photo
 intro text.-.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
-adress numero.-.
-127
-adress rue.-.
-rue Lussier 
-adress ville.-.
-Saint-Alphonse-de-Granby
-email.-.
-kerrysummers49@gmail.com
-telephone.-.
-450 204 6580
-facebook.-.
-https://www.facebook.com/KerryBdn
+adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+lien un.-.
+https://flickr.com/
+lien deux.-.
+https://flickr.com/
+lien trois.-.
+https://flickr.com/
+Section un.-.
+titre.-.
+Le coins soleil
+img.-.
+galerie_1.png
+next.-.
+img.-.
+galerie_2.png
+next.-.
+img.-.
+galerie_3.png
+next.-.
+img.-.
+galerie_4.png
+next.-.
+img.-.
+galerie_5.png
+next.-.
+img.-.
+galerie_6.png
+next.-.
+fin section.-.
+
+section deux.-.
+titre.-.
+Les bois perdu
+img.-.
+cabane_bois.jpg 
+next.-.
+img.-.
+acceuil.jpg 
+next.-.
+img.-.
+nakedKerry.jpg 
+next.-.
+img.-.
+cabane_bois.jpg 
+next.-.
+img.-.
+acceuil.jpg 
+next.-.
+img.-.
+nakedKerry.jpg 
+next.-.
+fin section.-.
+
+
+section trois.-.
+titre.-.
+La gite des campeurs
+img.-.
+cabane_bois.jpg
+next.-.
+img.-.
+acceuil.jpg
+next.-.
+img.-.
+nakedKerry.jpg
+next.-.
+img.-.
+cabane_bois.jpg
+next.-.
+img.-.
+next.-.
+img.-.
+nakedKerry.jpg
+next.-.
+fin section.-.

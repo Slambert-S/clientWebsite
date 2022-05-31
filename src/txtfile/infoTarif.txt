@@ -1,0 +1,53 @@
+landing.-.
+Services offerts
+intro titre.-.
+Le prix de nos services offert
+intro text.-.
+Tarif adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+debut Section Variable.-.
+nbObjet.-.
+4
+debut section.-.
+carte titre.-.
+Contract de membre
+prix.-.
+50
+description.-.
+Prix a payer pour devenire membre.
+img.-.
+nakedKerry.jpg
+fin section.-.
+
+debut section.-.
+carte titre.-.
+Passe journalière
+prix.-.
+10
+description.-.
+Permet de visiter le si­te pour une journée
+img.-.
+chambre_carte.png
+fin section.-.
+
+debut section.-.
+carte titre.-.
+Chambre
+prix.-.
+75 $ - 95
+description.-.
+Locations d'une chambre sur place. le prix varie en fonction du nombre d'inviter.
+img.-.
+cabane_bois.jpg
+fin section.-.
+
+debut section.-.
+carte titre.-.
+Tente
+prix.-.
+10
+description.-.
+Location d'un espace pour monter votre tente pour la nuit
+img.-.
+piscine.png
+fin section.-.
+fin section variable.-.
