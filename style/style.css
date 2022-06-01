@@ -234,8 +234,16 @@ nav a{
    margin-top: 30px;
    margin-bottom: 30px;
    width: -webkit-fill-available;
+   
 }
 
+.adminMaxWidth{
+    width: 1280px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: -webkit-fill-available;
+    
+}
 
 .allignSelfFix{
     align-self:center;
@@ -255,7 +263,26 @@ nav a{
 
     
 }
+.formStyle{
+    display: flex;
+    flex-direction: column;
+}
 
+.formSpacing{
+    margin-bottom:20px;
+}
+
+.formStyle label{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.formStyle h3{
+    color:#F04902;
+}
+.formSmallWidth{
+    width: fit-content;
+}
 button{
     background-color:#F04902;
     

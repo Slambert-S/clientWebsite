@@ -1,0 +1,73 @@
+landingTxt.-.
+Petit titre ou slogan 
+acceuilTitre.-.
+Bain de nature, gite et club privé naturise pour homme  
+acceuilText.-.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+
+service Titre.-.
+Les Services offert 
+service text.-.
+Lorem ipsu'm  consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+
+section photo services.-.
+service un titre.-.
+Nom service #1 
+photo.-.
+piscine_tri'ple_un.png 
+fin element.-.
+service un titre.-.
+Nom service 
+photo.-.
+nakedKerry.jpg 
+fin element.-.
+service un titre.-.
+Nom service #3 
+photo.-.
+cuisine_section_un.png 
+fin element.-.
+Hote titre.-.
+Découvire vos hôtes  
+Hote text.-.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quis voluptates in maiores odit nihil ducimus. Totam vel repellat suscipit sit nam quaerat mollitia ratione tempora praesentium, cum nostrum voluptatibus!
+
+Hote img.-.
+haute.jpg 
+tarif.-.
+Nos tarifs 
+tarif text.-.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+carte tarif.-.
+carte titre.-.
+Devenir membre 
+carte prix.-.
+70
+carte photo.-.
+bureau_carte.png 
+fin element.-.
+carte titre.-.
+Devenir membre 
+carte prix.-.
+50 
+carte photo.-.
+chambre_carte.png 
+fin element.-.
+carte titre.-.
+Devenir membre  
+carte prix.-.
+50 
+carte photo.-.
+foret_carte.png 
+fin element.-.
+galerie titre.-.
+Explorer notre galerie de photo  
+triple photo.-.
+photo.-.
+a b 'c d
+fin element.-.
+photo.-.
+a b c' d
+fin element.-.
+photo.-.
+b b c 'd 
+fin element.-.

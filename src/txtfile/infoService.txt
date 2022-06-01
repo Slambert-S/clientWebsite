@@ -1,0 +1,43 @@
+landing.-.
+Services offerts
+introTxt.-.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+debut section variable.-.
+nbObjet.-.
+3
+titre.-.
+Nom de service 1
+text.-.
+Description du services :Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quis voluptates in maiores odit nihil ducimus. Totam vel repellat suscipit sit nam quaerat mollitia ratione tempora praesentium, cum nostrum voluptatibus!
+prix.-.
+gratuit
+photo.-.
+service_1.png
+fin section.-.
+
+titre.-.
+Nom de service 2
+text.-.
+Description du services :Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quis voluptates in maiores odit nihil ducimus. Totam vel repellat suscipit sit nam quaerat mollitia ratione tempora praesentium, cum nostrum voluptatibus!
+prix.-.
+gratuit
+photo.-.
+Servive_2.png
+fin section.-.
+
+titre.-.
+Nom de service 3
+text.-.
+Description du services :Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quis voluptates in maiores odit nihil ducimus. Totam vel repellat suscipit sit nam quaerat mollitia ratione tempora praesentium, cum nostrum voluptatibus!
+prix.-.
+gratuit
+photo.-.
+service_3.png
+fin section.-.
+fin section variable.-.
+
+titreBDP.-.
+Titre (call to action)
+textBDP.-.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis.
+

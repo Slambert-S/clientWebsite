@@ -1,0 +1,30 @@
+landing.-.
+Foire au question
+titreSection1.-.
+Bienvenue dans la foire aux questions
+texteSection1.-.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+debut Section Variable.-.
+nbObject.-.
+3
+debut section.-.
+titre.-.
+Quelle sont les rest'riciton sur la nudité sur le site ?
+reponse.-.
+Réponse 1 :La nudité est permies sur tout le site saufe sur le stationnement.
+fin section.-.
+
+debut section.-.
+titre.-.
+Question 2
+reponse.-.
+Réponse 2 :La nudité est permies sur tout le site saufe sur le stationnement.
+fin section.-.
+
+debut section.-.
+titre.-.
+Question 3
+reponse.-.
+Réponse 3 :La nudité est permies sur tout le site saufe sur le stationnement.
+fin section.-.
+fin section variable.-.
