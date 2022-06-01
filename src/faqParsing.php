@@ -8,13 +8,17 @@
     $handle = fopen("txtfile/infoFaq.txt", "r");
     if ($handle) {
         //    $newTxt ="";
-        $pattern = "/(titreSection1\.-\.)+/i";
+        $pattern = "/(landing\.-\.)+/i";
         $findemptyLine = "/^[^\s]/";
         $section = 0;
         $sectionVariable = 0;
         $loopIndex = 0;
 
+
+        
+
         //$keyWord =preg_match_all($pattern, $str); // je ne vois pas ce que cette ligne de code voulais faire 
+        $titreLanding ="";
         $titreSectionUn = "";
         $textSectionUn = "";
         $nbElementVariable = "";
@@ -30,10 +34,24 @@
                             //check pour le premier titre
 
                             $section++;
-                            $pattern = "/(texteSection1\.-\.)+/i";
+                            $pattern = "/(titreSection1\.-\.)+/i";
                         }
                         break;
                     case 1:
+                            //sauvegarde le premier titre et change pour début section variable
+                            if (preg_match($pattern, $line) == 1) {
+    
+                                $section++;
+                                $pattern = "/(texteSection1\.-\.)+/i";
+                            } else {
+                                if (preg_match($findemptyLine, $line) == 0) {
+                                } else {
+                                    $titreLanding .= $line;
+                                }
+                            }
+    
+                            break;
+                    case 2:
                         //sauvegarde le premier titre et change pour début section variable
                         if (preg_match($pattern, $line) == 1) {
 
@@ -47,7 +65,7 @@
                         }
 
                         break;
-                    case 2:
+                    case 3:
                         //Sauvegarde texte de la section 1, et change pour débuter la section variable
                         if (preg_match($pattern, $line)) {
                             $loopIndex = 1;

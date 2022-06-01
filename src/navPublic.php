@@ -10,9 +10,11 @@
     <nav class="topNav">
       <a href="service.php">Service</a>
       <a href="faq.php">FAQ</a>
-      <a href="galerie.html">Galerie</a>
-      <a href="prix.html">Tarifs</a>
-      <a href="contact.html">Nous contacter</a>
+      <a href="galerie.php">Galerie</a>
+      <a href="prix.php">Tarifs</a>
+      <a href="contact.php">Nous contacter</a>
+      <a href="adminIndex.php">Admin</a>
+      
     </nav>
   </div>
 </div>
@@ -26,9 +28,10 @@
     <a href="../index.php">Acceuil</a>
     <a href="service.php">Service</a>
     <a href="faq.php">FAQ</a>
-    <a href="galerie.html">Galerie</a>
-    <a href="prix.html">Tarifs</a>
-    <a href="contact.html">Nous contacter</a>
+    <a href="galerie.php">Galerie</a>
+    <a href="prix.php">Tarifs</a>
+    <a href="contact.php">Nous contacter</a>
+    <a href="adminIndex.php">Admin</a>
 
   </nav>
 </div>

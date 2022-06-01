@@ -17,22 +17,29 @@
     <div class=" flexColumn white addMargin" id="textIntroGalery">
         <div class="adminMaxWidth allignSelfFix ">
             <div class="wrapper">
+                <h1>Gestion de la page FAQ</h1>
                 <form id="" class="formStyle" action="php/saveFaq.php" method="post">
+                    <h3>Section d'arrivée</h3>
+                    <label for="faqTitreLanding">Titre section d'arrivée</label>
+                    <input type="text" id="faqTitreLanding" name="landing" value="<?php echo $titreLanding ?>">
+                    <h3>Section d'acceuil</h3>
                     <label for="faqTitreUn">Titre section 1</label>
                     <input type="text" id="faqTitreUn" name="titreUn" value="<?php echo $titreSectionUn ?>">
 
                     <label for="sectionUntext">Text : section d'introduction </label>
                     <textarea name="texteUn" class="formSpacing" id="sectionUntext" rows="5" cols="30"><?php echo $textSectionUn ?></textarea>
+
+                    <h3>Section des questions (Variables)</h3>
                     <?php
                     $nbSection = $nbElementVariable;
                     $j = 0;
 
                     for ($j; $j < $nbSection; $j++) {
-                        echo "<label for='question" . $j . "'>Question " . ($j + 1) . "</label>";
-                        echo "<input type='text' id='question" . $j . "' name='titreQ" . $j . "' value='" . $titreVariable[$j] . "'>";
-                        echo "<label for='reponseQuestion" . $j . "'>Réponse question  " . ($j + 1) . "</label>";
-                        echo "<input type='text' class='formSpacing' id='reponseQuestion" . $j . "' name='reponseQ" . $j . "' value='" . $textVariable[$j] . "'>";
-                        echo "<br>";
+                        echo '<label for="question' . $j . '">Question ' . ($j + 1) . '</label>';
+                        echo '<input type="text" id="question' . $j . '" name="titreQ' . $j . '" value="' . $titreVariable[$j] . '">';
+                        echo '<label for="reponseQuestion' . $j . '">Réponse question  ' . ($j + 1) . '</label>';
+                        echo '<input type="text" class="formSpacing" id="reponseQuestion' . $j . '" name="reponseQ' . $j . '" value="' . $textVariable[$j] . '">';
+                        echo '<br>';
                     }
                     ?>
                     <label for="nombreSectionFaq">Nombre d'élément</label>
@@ -66,31 +73,9 @@
 
 
     <div class="contenuCentrer noire">
-        <div class="mxWidth test piedDePage">
-            <div>
-                <h4>Pour nous contacter</h4>
-                <p>Email : dumme@email.com</p>
-                <p>Téléphone : 450 204 6580</p>
-                <a href="#">Facebook</a>
-            </div>
-            <div>
-                <h4>Navigation</h4>
-                <ul>
-                    <li><a href="../index.html">Acceuil</a></li>
-                    <li><a href="../src/service.html">Service</a></li>
-                    <li><a href="../src/galerie.html">Galerie</a></li>
-                    <li><a href="../src/faq.html">FAQ</a></li>
-                    <li><a href="../src/prix.html">Tarifs</a></li>
-                    <li><a href="../src/contact.html">Contacter</a></li>
-
-                </ul>
-            </div>
-            <div>
-                <h4>Site web développer par</h4>
-                <p>Samuel Lambert-Senécal </p>
-                <p>Potpholio : slambert-senecal.com</p>
-            </div>
-        </div>
+        <?php
+        include "footer.php";
+        ?>
     </div>
 
 </body>

@@ -13,42 +13,8 @@
 
 <body>
 
-    <button id="menuHam" class="hamburger hamburger--emphatic " tabindex="0" type="button">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-
-    <div id="wrappTopNav">
-        <div id="wrappPadTopNav">
-            <a href="../index.html" id="logoMenu">Bain de nature</a>
-            <nav class="topNav">
-                <a href="service.html">Service</a>
-                <a href="faq.html">FAQ</a>
-                <a href="galerie.html">Galerie</a>
-                <a href="prix.html">Tarifs</a>
-                <a href="contact.html">Nous contacter</a>
-            </nav>
-        </div>
-    </div>
-
-
-
-    <div id="wrappTopNavMobile" class="menuClose">
-
-        <nav class="topNav">
-            <a href="../index.html" id="logoMenuMobile">Bain de nature</a>
-            <a href="../index.html">Acceuil</a>
-            <a href="service.html">Service</a>
-            <a href="faq.html">FAQ</a>
-            <a href="galerie.html">Galerie</a>
-            <a href="prix.html">Tarifs</a>
-            <a href="contact.html">Nous contacter</a>
-        </nav>
-    </div>
-
-
     <?php
+    include "navPublic.php";
     $custumPath = "txtfile/";
     include "serviceParsing.php"
     ?>
@@ -61,8 +27,6 @@
                     <div class="buttonClass buttonFix">call to action</div>
                 </a>
             </div>
-
-
 
         </div>
     </div>
@@ -128,31 +92,9 @@
 
 
     <div class="contenuCentrer noire">
-        <div class="mxWidth test piedDePage">
-            <div>
-                <h4>Pour nous contacter</h4>
-                <p>Email : dumme@email.com</p>
-                <p>Téléphone : 450 204 6580</p>
-                <a href="#">Facebook</a>
-            </div>
-            <div>
-                <h4>Navigation</h4>
-                <ul>
-                    <li><a href="../index.html">Acceuil</a></li>
-                    <li><a href="../src/service.html">Service</a></li>
-                    <li><a href="../src/galerie.html">Galerie</a></li>
-                    <li><a href="../src/faq.html">FAQ</a></li>
-                    <li><a href="../src/prix.html">Tarifs</a></li>
-                    <li><a href="../src/contact.html">Contacter</a></li>
-
-                </ul>
-            </div>
-            <div>
-                <h4>Site web développer par</h4>
-                <p>Samuel Lambert-Senécal </p>
-                <p>Potpholio : slambert-senecal.com</p>
-            </div>
-        </div>
+        <?php
+        include "footer.php";
+        ?>
     </div>
 
 

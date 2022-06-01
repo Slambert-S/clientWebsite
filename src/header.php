@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
-    Bain de nature
+Bain de nature, gite et club priver naturise pour homme.
 </title>
 
 <link rel="stylesheet" href="../ref/reset.css">

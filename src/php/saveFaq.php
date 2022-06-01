@@ -1,7 +1,8 @@
 <?php
 $file = "../txtfile/infoFaq.txt";
-
-$text = "titreSection1.-.\n";
+$text = "landing.-.\n";
+$text .= $_POST["landing"];
+$text .= "\ntitreSection1.-.\n";
 $text .= $_POST["titreUn"];
 $text .= "\ntexteSection1.-.\n";
 $text .= $_POST["texteUn"];

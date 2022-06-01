@@ -1,3 +1,5 @@
+landing.-.
+Foire au question
 titreSection1.-.
 Bienvenue dans la foire aux questions
 texteSection1.-.
@@ -7,7 +9,7 @@ nbObject.-.
 3
 debut section.-.
 titre.-.
-Quelle sont les restriciton sur la nudité sur le site ?
+Quelle sont les rest'riciton sur la nudité sur le site ?
 reponse.-.
 Réponse 1 :La nudité est permies sur tout le site saufe sur le stationnement.
 fin section.-.

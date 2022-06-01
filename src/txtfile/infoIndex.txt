@@ -8,13 +8,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet ero
 service Titre.-.
 Les Services offert 
 service text.-.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
+Lorem ipsu'm  consectetur adipiscing elit. Duis tempor aliquet eros, at commodo quam tincidunt at. Cras eu felis ac arcu imperdiet cursus vel eu nibh. Nulla semper tortor ac arcu pellentesque viverra. Nunc ut dapibus felis. Maecenas sed neque vitae nisi vulputate suscipit ac vel mauris. Aliquam gravida id dolor id gravida. Maecenas vel tellus quis nunc euismod eleifend. Quisque euismod consequat tellus, id placerat urna mattis a. Aenean placerat tortor at diam dapibus, in suscipit nisl sagittis. Donec pretium luctus ultrices. Aliquam tincidunt in sapien commodo convallis. 
 
 section photo services.-.
 service un titre.-.
 Nom service #1 
 photo.-.
-piscine_triple_un.png 
+piscine_tri'ple_un.png 
 fin element.-.
 service un titre.-.
 Nom service 
@@ -63,11 +63,11 @@ galerie titre.-.
 Explorer notre galerie de photo  
 triple photo.-.
 photo.-.
-a 
+a b 'c d
 fin element.-.
 photo.-.
-a 
+a b c' d
 fin element.-.
 photo.-.
-b 
+b b c 'd 
 fin element.-.

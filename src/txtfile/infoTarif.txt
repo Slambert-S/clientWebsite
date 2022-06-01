@@ -24,7 +24,7 @@ Passe journalière
 prix.-.
 10
 description.-.
-Permet de visiter le si­te pour une journée
+Permet de visi'ter le si­te pour une journée
 img.-.
 chambre_carte.png
 fin section.-.

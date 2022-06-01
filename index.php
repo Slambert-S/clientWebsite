@@ -166,12 +166,12 @@
             <div>
                 <h4>Navigation</h4>
                 <ul>
-                    <li><a href="index.html" >Acceuil</a></li>
-                    <li><a href ="src/service.html">Service</a></li>
-                    <li><a href ="src/galerie.html">Galerie</a></li>
-                    <li><a href ="src/faq.html">FAQ</a></li>
-                    <li><a href="src/prix.html">Tarifs</a></li>
-                    <li><a href="src/contact.html">Contacter</a></li>
+                    <li><a href="index.php" >Acceuil</a></li>
+                    <li><a href ="src/service.php">Service</a></li>
+                    <li><a href ="src/galerie.php">Galerie</a></li>
+                    <li><a href ="src/faq.php">FAQ</a></li>
+                    <li><a href="src/prix.php">Tarifs</a></li>
+                    <li><a href="src/contact.php">Contacter</a></li>
                    
                 </ul>
             </div>
